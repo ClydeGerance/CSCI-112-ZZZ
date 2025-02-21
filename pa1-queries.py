@@ -18,7 +18,7 @@ for movie in result1:
     print(movie["title"])
 
 # 2. Find all movies where category includes drama or action
-query2 = {"category": {"$in": ["drama", "action"]}}
+query2 = {"$or":[{"category": "drama"}, {"category": "action"}]}
 result2 = list(movies.find(query2))
 print("\nMovies in the Drama or Action category:")
 for movie in result2:
@@ -27,4 +27,3 @@ for movie in result2:
 # 3. Find the top movie based on revenue
 query3 = movies.find_one(sort=[("revenue", -1)])
 print("\nTop movie based on revenue:")
-print(query3["title"] if query3 else "No movies found")
