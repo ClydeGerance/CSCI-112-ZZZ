@@ -1,3 +1,28 @@
+# Clyde Lester Gerance, 185503
+# Member #2 details
+# 
+# February 28, 2025
+
+# I/we certify that this submission complies with the DISCS Academic Integrity
+# Policy.
+
+# If I/we have discussed my/our Python language code with anyone other than
+# my/our instructor(s), my/our groupmate(s), the teaching assistant(s),
+# the extent of each discussion has been clearly noted along with a proper
+# citation in the comments of my/our program.
+
+# If any Python language code or documentation used in my/our program
+# was obtained from another source, either modified or unmodified, such as a
+# textbook, website, or another individual, the extent of its use has been
+# clearly noted along with a proper citation in the comments of my/our program.
+
+################################################################################
+
+#https://pymongo.readthedocs.io/en/stable/api/pymongo/collection.html
+#https://www.mongodbtutorial.org/mongodb-crud/mongodb-update-inc/
+
+################################################################################
+
 import pymongo
 from pymongo import MongoClient
 from pprint import pprint
